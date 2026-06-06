@@ -36,7 +36,7 @@ Server on `http://127.0.0.1:3000/mcp`. Connect from VS Code via `MCP: List Serve
 
 ## Demo
 
-<video src="docs/images/PoC.mov" controls width="100%"></video>
+[▶️ Watch the full attack flow](https://github.com/mburgc/mcp-phish-poc/raw/main/docs/images/PoC.mov) — click to download or view the `.mov` file.
 
 ## Captured Output
 
