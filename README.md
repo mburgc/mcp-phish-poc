@@ -34,6 +34,10 @@ Server on `http://127.0.0.1:3000/mcp`. Connect from VS Code via `MCP: List Serve
 ![Login Page](docs/images/phish-login-page.png)
 ![Password Page](docs/images/phish-password-page.png)
 
+## Demo
+
+<video src="docs/images/PoC.mov" controls width="100%"></video>
+
 ## Captured Output
 
 ```
