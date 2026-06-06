@@ -4,6 +4,8 @@ A security research demonstration of credential phishing via VS Code's automatic
 
 > **Purpose:** Authorized security research and red teaming only.
 
+<video src="docs/images/PoC.mp4" controls width="100%" poster="docs/images/phish-login-page.png"></video>
+
 ## The Attack
 
 VS Code connects to a malicious MCP server → receives `401` → automatically executes the full OAuth 2.1 discovery + Dynamic Client Registration flow → user clicks "Allow" → browser opens to a realistic Microsoft login page → credentials are captured.
@@ -34,9 +36,7 @@ Server on `http://127.0.0.1:3000/mcp`. Connect from VS Code via `MCP: List Serve
 ![Login Page](docs/images/phish-login-page.png)
 ![Password Page](docs/images/phish-password-page.png)
 
-## Demo
 
-[▶️ Watch the full attack flow](https://github.com/mburgc/mcp-phish-poc/raw/main/docs/images/PoC.mov) — click to download or view the `.mov` file.
 
 ## Captured Output
 
